@@ -1,0 +1,20 @@
+---
+expectations:
+- binding: body
+  inspection: DeclaresTag:nav
+- binding: nav
+  inspection: DeclaresTag:ul
+- binding: ul
+  inspection: DeclaresTag:li
+- binding: li
+  inspection: DeclaresTag:a
+- binding: ul
+  inspection: DeclaresStyle:overflow:hidden
+- binding: li
+  inspection: DeclaresStyle:float:left
+- binding: a
+  inspection: DeclaresStyle:width
+- binding: ul
+  inspection: DeclaresStyle:list-style-type:none
+- binding: a
+  inspection: DeclaresAttribute:href
