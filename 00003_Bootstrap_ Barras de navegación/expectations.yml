@@ -2,5 +2,3 @@
 expectations:
 - binding: div
   inspection: DeclaresAttribute:class="container"
-- binding: ul
-  inspection: DeclaresAttribute:class="nav"
