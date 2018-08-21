@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: test
+  inspection: DeclaresTag:test
