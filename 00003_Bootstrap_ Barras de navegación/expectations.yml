@@ -1,6 +1,6 @@
 ---
 expectations:
 - binding: div
-  inspection: DeclaresClass:container
+  inspection: DeclaresAttribute:class="container"
 - binding: ul
-  inspection: DeclaresClass:nav
+  inspection: DeclaresAttribute:class="nav"
