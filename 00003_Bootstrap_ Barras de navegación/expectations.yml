@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: div
+  inspection: DeclaresClass:container
+- binding: ul
+  inspection: DeclaresClass:nav
