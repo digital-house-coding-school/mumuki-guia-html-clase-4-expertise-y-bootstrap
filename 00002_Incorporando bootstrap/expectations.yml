@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: head
+  inspection: DeclaresTag:link
+- binding: link
+  inspection: DeclaresAttribute:href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
