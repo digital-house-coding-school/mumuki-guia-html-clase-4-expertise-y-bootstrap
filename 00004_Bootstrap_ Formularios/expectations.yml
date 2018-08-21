@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: div
+  inspection: DeclaresAttribute:class="form-group"
+- binding: input
+  inspection: DeclaresAttribute:class="form-control"
