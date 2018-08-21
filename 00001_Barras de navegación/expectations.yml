@@ -20,3 +20,5 @@ expectations:
   inspection: DeclaresAttribute:href
 - binding: css:a
   inspection: DeclaresStyle:display:block
+- binding: css:a
+  inspection: DeclaresStyle:float:left
