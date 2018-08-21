@@ -13,7 +13,7 @@ expectations:
 - binding: li
   inspection: DeclaresStyle:float:left
 - binding: a
-  inspection: DeclaresStyle:width
+  inspection: DeclaresStyle:width:50px
 - binding: ul
   inspection: DeclaresStyle:list-style-type:none
 - binding: a
