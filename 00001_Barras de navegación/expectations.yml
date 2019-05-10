@@ -1,24 +1,35 @@
 ---
 expectations:
-- binding: body
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
   inspection: DeclaresTag:nav
-- binding: nav
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: nav
   inspection: DeclaresTag:ul
-- binding: ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ul
   inspection: DeclaresTag:li
-- binding: li
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: li
   inspection: DeclaresTag:a
-- binding: css:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
   inspection: DeclaresStyle:overflow:hidden
-- binding: css:li
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:li
   inspection: DeclaresStyle:float:left
-- binding: css:a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
   inspection: DeclaresStyle:width
-- binding: css:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
   inspection: DeclaresStyle:list-style-type:none
-- binding: a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: a
   inspection: DeclaresAttribute:href
-- binding: css:a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
   inspection: DeclaresStyle:display:block
-- binding: css:a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
   inspection: DeclaresStyle:float:left

@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: head
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: head
   inspection: DeclaresTag:link
-- binding: link
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: link
   inspection: DeclaresAttribute:href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-- binding: link
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: link
   inspection: DeclaresAttribute:rel="stylesheet"

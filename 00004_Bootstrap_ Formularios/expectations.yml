@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: div
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: div
   inspection: DeclaresAttribute:class="form-group"
-- binding: input
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: input
   inspection: DeclaresAttribute:class="form-control"
